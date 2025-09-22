@@ -11,17 +11,20 @@ Fields: danceability, energy, key, loudness, mode, speechiness, acousticness, in
 
 See https://developer.spotify.com/documentation/web-api/reference/get-audio-features for explanations of what each measurement means and the scale of values used.
 
+## Final Visualization
+<img src = "spotify_four.png" width = "700">
+
 ## Process
-
-<img src = "spotify_four.png" width = "600">
-
 In my design process, I made deliberate choices to explore these song characteristics between moods. Initially, I utilized box and whisker plots to illustrate the median and variance of each characteristic, because they are easy to compare between playlists. Additionally, I opted for an orange color to represent "happy," as warm tones conventionally symbolize happiness in Western culture.
 
 Then, I started including additional moods as you can see in the visual below. As I expanded to include more moods, I adjusted colors to correspond with mood categories—orange for happy, blue for sad, red for love, purple for party/dance, and green for chill.
+<img src = "spotify_one.png" width = "600">
 
 To ensure easy comparison of median values between moods, I standardized the scale of each feature across all moods, aligning the bars consistently. Moreover, I integrated song titles within playlists to provide context and evidence of alignment between playlist titles and song contents. This coherence aimed to foster trust in the visualization's results among viewers. I was ultimately trying to convince or provide evidence that the songs within the playlist align with the playlist title/mood. 
+<img src = "spotify_two.png" width = "600">
 
 To do this I used the “dashboard” feature within Tableau which made it especially easy to compile different sheets that I had created. The dashboard feature made it easy to maintain consistency between spacing between visualizations (which was not the case when I simply tried to compile them by hand in Illustrator). Using the Dashboard feature was essential in creating a complicated visual composed of many features while keeping it looking neat and organized. 
+<img src = "spotify_three.png" width = "600">
 
 I then exported my visual into Illustrator and added a title that aligned with the title of the assignment “Between Things” as I was interested in looking at track features “Between Moods”. I also included some handwritten annotations. Handwritten annotations were incorporated to infuse a personalized touch, enhancing viewer engagement. Handwritten annotations seem to allow the viewer to connect with the visual more, directing the eye towards the axis so that the viewer more easily understands what to look at.
 
