@@ -2,22 +2,26 @@
 ## Purpose
 For this project, I aimed to visually represent how song features vary across different listener moods. Utilizing playlist titles as indicators of overarching mood categories—such as happy, sad, love, party, and chill—I selected five playlists that seemed to align with these moods. For instance, I categorized the "Summer Drive" playlist as "Happy," "I Always Want to Die Sometimes" as "Sad," "Kiss Her, You Fool" as "Love," "Can’t Help But Dance" as "Party," and "Lofi Bangerz" as "Chill." Subsequently, I visualized song features like danceability, loudness, and energy within each playlist to analyze variations between moods.
 
-
 ## Data
+Data in this folder are Spotify exports from individuals, which have been de-identified and combined into collections by type.  Tracks, artists, episodes, and more have then been queried against the Spotify API https://developer.spotify.com/documentation/web-api for detailed information on the objects.  
+
+For this project I used the the trackFeatures.csv. Detailed audio features (measurements) of each track, for understanding the music's characteristics or how the music feels.  
+
+Fields: danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, track.id, duration_ms, time_signature  
+
+See https://developer.spotify.com/documentation/web-api/reference/get-audio-features for explanations of what each measurement means and the scale of values used.
 
 ## Process
+
+<img src = "spotify_four.png" width = "600">
+
 In my design process, I made deliberate choices to explore these song characteristics between moods. Initially, I utilized box and whisker plots to illustrate the median and variance of each characteristic, because they are easy to compare between playlists. Additionally, I opted for an orange color to represent "happy," as warm tones conventionally symbolize happiness in Western culture.
-
-
 
 Then, I started including additional moods as you can see in the visual below. As I expanded to include more moods, I adjusted colors to correspond with mood categories—orange for happy, blue for sad, red for love, purple for party/dance, and green for chill.
 
-
 To ensure easy comparison of median values between moods, I standardized the scale of each feature across all moods, aligning the bars consistently. Moreover, I integrated song titles within playlists to provide context and evidence of alignment between playlist titles and song contents. This coherence aimed to foster trust in the visualization's results among viewers. I was ultimately trying to convince or provide evidence that the songs within the playlist align with the playlist title/mood. 
 
-
 To do this I used the “dashboard” feature within Tableau which made it especially easy to compile different sheets that I had created. The dashboard feature made it easy to maintain consistency between spacing between visualizations (which was not the case when I simply tried to compile them by hand in Illustrator). Using the Dashboard feature was essential in creating a complicated visual composed of many features while keeping it looking neat and organized. 
-
 
 I then exported my visual into Illustrator and added a title that aligned with the title of the assignment “Between Things” as I was interested in looking at track features “Between Moods”. I also included some handwritten annotations. Handwritten annotations were incorporated to infuse a personalized touch, enhancing viewer engagement. Handwritten annotations seem to allow the viewer to connect with the visual more, directing the eye towards the axis so that the viewer more easily understands what to look at.
 
