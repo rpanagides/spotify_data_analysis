@@ -1,4 +1,4 @@
-# spotify_data_analysis
+# Spotify Data Analysis and Visualization
 ## Purpose
 For this project, I aimed to visually represent how song features vary across different listener moods. Utilizing playlist titles as indicators of overarching mood categories—such as happy, sad, love, party, and chill—I selected five playlists that seemed to align with these moods. For instance, I categorized the "Summer Drive" playlist as "Happy," "I Always Want to Die Sometimes" as "Sad," "Kiss Her, You Fool" as "Love," "Can’t Help But Dance" as "Party," and "Lofi Bangerz" as "Chill." Subsequently, I visualized song features like danceability, loudness, and energy within each playlist to analyze variations between moods.
 
